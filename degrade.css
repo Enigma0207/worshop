@@ -1,0 +1,17 @@
+.rond {
+  width: 400px;
+  height: 400px;
+  background-color: blueviolet;
+  margin: auto;
+  border-radius: 400px;
+  background-image: linear-gradient(
+    to right,
+    rgb(155, 48, 48),
+    orange,
+    yellow,
+    green,
+    rgb(21, 21, 85),
+    indigo,
+    violet
+  );
+}
