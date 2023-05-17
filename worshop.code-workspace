@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../phase1"
+	},
+	{
+		"path": "../layout"
+	},
+	{
+		"path": "../buldstap"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "worshop"
+  }
+}

@@ -1,0 +1,78 @@
+/* pour creer des cube, chaqye ligne représente une section ou div mere qui aura le propriété display: fex
+pour quil soit alligné orizontalement
+dedant on aura des petit div et ckaque petit div aura une class cube1 ou cube2 selon les couleur et. de preference il faut defin
+ir un grand div principal, pour maitre Display:flex: il arranger orizontalement les forme car chaque ligne est une balise de type ploc , ils sont directement orizontal.on peut utilsé le float lef pour les sous div ou carrément 
+le display:flex au div contenaire, et on donne au div cont un margin:auto pour centre les reste du travail
+une largeur Width de 80% du centre.
+chaque sous group. IL FAUT ICI REMPLACER LE SECTION PAR LE DIV CONTENEUR */
+main {
+  width: 80%;
+  margin: auto;
+  border: 2px solid black;
+  padding: 2%;
+
+  /* on supose que mail a une largeur de 80% */
+}
+.cube1 {
+  background-color: green;
+  border-radius: 5% 20% 40% 40%;
+  height: 100px;
+  width: 100px;
+  margin: 4px;
+}
+
+.cube2 {
+  background-color: rgb(52, 181, 185);
+  border-radius: 50% 0% 50% 0%;
+  height: 100px;
+  width: 100px;
+}
+.div0 {
+  margin: auto;
+  display: flex;
+}
+.div2 {
+  margin: auto;
+  display: flex;
+}
+.rond {
+  background-color: rgb(52, 181, 185);
+  border-radius: 50% 50% 50% 50%;
+  height: 100px;
+  width: 100px;
+}
+.cube3 {
+  background-color: rgb(177, 180, 180);
+  border-radius: 5% 40% 5% 40%;
+  height: 100px;
+  width: 100px;
+}
+
+.div3 {
+  margin: auto;
+  display: flex;
+}
+.vide {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
+.div4 {
+  margin: auto;
+  display: flex;
+}
+.div5 {
+  margin: auto;
+  display: flex;
+}
+.div6 {
+  margin: auto;
+  display: flex;
+}
+
+main div {
+  justify-content: center;
+  padding: auto;
+  margin: auto;
+}
+/* n'oublie pas de gerer les espaces entre les forment */
