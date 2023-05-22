@@ -1,0 +1,14 @@
+/* body{
+    background-color: rgb(7, 9, 10);
+    width: 60%;
+    margin: auto;
+} */
+#navbarSupportedContent > ul li a,
+nav button {
+  color: #e7b165 !important;
+  text-transform: uppercase;  
+  /* upper */
+  font-size: 13px !important;
+  font-weight: bold !important;
+  letter-spacing: 1px !important;
+}
