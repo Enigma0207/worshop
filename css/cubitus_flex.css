@@ -27,14 +27,11 @@ main {
   height: 100px;
   width: 100px;
 }
-.div0 {
+.div-flex {
   margin: auto;
   display: flex;
 }
-.div2 {
-  margin: auto;
-  display: flex;
-}
+
 .rond {
   background-color: rgb(52, 181, 185);
   border-radius: 50% 50% 50% 50%;
@@ -48,31 +45,22 @@ main {
   width: 100px;
 }
 
-.div3 {
-  margin: auto;
-  display: flex;
-}
 .vide {
   background-color: white;
   height: 100px;
   width: 100px;
 }
-.div4 {
-  margin: auto;
-  display: flex;
-}
-.div5 {
-  margin: auto;
-  display: flex;
-}
-.div6 {
-  margin: auto;
-  display: flex;
-}
 
-main div {
+/* main > div {
   justify-content: center;
   padding: auto;
   margin: auto;
+} */
+
+.space-center {
+  justify-content: center;
+}
+.space-around {
+  justify-content: space-around;
 }
 /* n'oublie pas de gerer les espaces entre les forment */
