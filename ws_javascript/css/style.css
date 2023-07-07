@@ -1,0 +1,30 @@
+.card .picture2 {
+
+  display: none;
+
+}
+
+.card:hover .picture1 {
+
+  display: none;
+
+}
+.card:hover .picture2 {
+
+  display: block;
+
+}
+
+/* IMG CLASS */
+.card mb-3{
+  display: flex;
+}
+.formulaire{
+  bottom:20px;
+  left: 20%;
+}
+button{
+ 
+  background-color: aquamarine;
+  
+}

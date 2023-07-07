@@ -1,0 +1,26 @@
+header{
+    border:black 1px; border-collapse: collapse;
+    background: linear-gradient(#5ef1b8,#2ecaca);
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.logos{
+    display: flex;
+    color: white;
+    width: 50%;
+}
+nav{
+    justify-content: end;
+    color: white;
+    width: 50%;
+
+
+    
+
+}
+.contnaire{
+   justify-content: space-between;  
+   display: flex;
